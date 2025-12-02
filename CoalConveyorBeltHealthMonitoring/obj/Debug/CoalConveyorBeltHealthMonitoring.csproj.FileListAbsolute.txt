@@ -1,0 +1,17 @@
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\CoalConveyorBeltHealthMonitoring.exe.config
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\CoalConveyorBeltHealthMonitoring.exe
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\CoalConveyorBeltHealthMonitoring.pdb
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.csproj.AssemblyReference.cache
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.Form1.resources
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.Properties.Resources.resources
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.csproj.GenerateResource.cache
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.csproj.CoreCompileInputs.cache
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.exe
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.pdb
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\obj\Debug\CoalConveyorBeltHealthMonitoring.exe.config
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\1.png
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\2.png
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\3.png
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\4.png
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\5.png
+D:\Program\SPS\CoalConveyorBeltHealthMonitoring\bin\Debug\Images\6.png
