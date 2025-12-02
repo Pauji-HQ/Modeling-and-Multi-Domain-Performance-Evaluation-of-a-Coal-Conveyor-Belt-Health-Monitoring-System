@@ -1,0 +1,2 @@
+# Modeling-and-Multi-Domain-Performance-Evaluation-of-a-Coal-Conveyor-Belt-Health-Monitoring-System
+This repository contains the complete implementation of a multi-sensor, multi-domain simulation framework for evaluating the health condition of a coal conveyor belt system. The system is based on the research paper:  “Modeling and Multi-Domain Performance Evaluation of a Coal Conveyor Belt Health Monitoring System”
