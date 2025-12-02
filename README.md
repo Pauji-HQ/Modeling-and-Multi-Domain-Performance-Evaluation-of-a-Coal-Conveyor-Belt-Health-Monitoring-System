@@ -1,6 +1,6 @@
 Coal Conveyor Belt Health Monitoring — Multi-Sensor & Multi-Domain Simulation
 
-This repository contains the complete implementation of a multi-sensor, multi-domain simulation framework for evaluating the health condition of a coal conveyor belt system.
+This repository contains the full implementation of a multi-sensor, multi-domain simulation framework for evaluating the health condition of a coal conveyor belt system.
 The system is based on the research paper:
 
 “Modeling and Multi-Domain Performance Evaluation of a Coal Conveyor Belt Health Monitoring System”
@@ -8,180 +8,109 @@ by Ahmad Fauzi Abdul Razzaq & Ir. Dwi Oktavianto Wahyu Nugroho, S.T., M.T.
 
 🚀 Overview
 
-Coal conveyor belts are critical in mining and bulk material handling. Failures such as:
+Coal conveyor belts are critical components in mining and bulk-material handling operations. Failures such as:
 
 Roller imbalance
 
-Overheating
-
 Belt misalignment
+
+Overheating
 
 Abnormal vibration
 
 Uneven load distribution
 
-can cause severe downtime and safety hazards.
+can lead to severe downtime and safety issues.
 
-This project introduces a real-time simulation software that models five heterogeneous sensors using a unified first-order dynamic model and analyzes them across four analytical domains:
+This project presents a real-time simulation platform that models five heterogeneous sensors using a unified first-order dynamic system, and evaluates them across four analytical domains:
 
 Time Domain
 
 Frequency Domain (FFT)
 
-Laplace Domain (s-plane)
+Laplace Domain (S-plane)
 
-Z-Domain (Discrete Pole Stability)
+Z-Domain (Digital Pole Stability)
 
-The program is implemented in C# (.NET Framework) with real-time visualization to support research, simulation study, and educational demonstrations in predictive maintenance.
+Developed using C# (.NET Framework), the system provides comprehensive visualization and diagnostic tools for research, education, and early-stage predictive maintenance development.
 
 🧩 Key Features
-✅ 5 Simulated Industrial Sensors
-Sensor	Function
-MMA7361L Accelerometer	Detect vibration & roller faults
-TMP36 Temperature Sensor	Monitor overheating & friction
-H8C Load Cell	Track coal load & lump anomalies
-SEN0381 Proximity Sensor	Detect belt markers & object presence
-MFRC522 RFID	Track position & tag-based events
+📡 Five Simulated Sensors
+Sensor	Purpose
+MMA7361L Accelerometer	Vibration & roller fault detection
+TMP36 Temperature Sensor	Detect overheating & friction
+H8C Load Cell	Coal load changes & lump anomalies
+SEN0381 Proximity Sensor	Belt marker & object detection
+MFRC522 RFID Module	Tag-based position tracking
 
-All sensors are modeled using the same first-order transfer function, enabling unified analysis.
+All sensors are modeled with the same first-order transfer function, ensuring consistent behavior analysis across domains.
 
-🔍 Multi-Domain Analysis
-1️⃣ Time-Domain Visualization
+🔍 Multi-Domain Capabilities
+1️⃣ Time-Domain Analysis
 
-Waveform responses
+View raw waveforms
 
-Transient behaviors
+Observe transient responses
 
-Fault injection analysis
+Inject faults to study sensor reactions
 
 2️⃣ Frequency-Domain (FFT)
 
-Detects harmonics caused by roller imbalance
+Detect harmonics from roller imbalance
 
-Identifies low-frequency load variations
+Identify low-frequency variations in load
 
-Visualizes spectral signatures of faults
+View spectral signatures of faults
 
 3️⃣ Laplace Domain (S-Plane)
 
-Pole mapping
+Pole visualization
+
+System dynamic behavior
 
 Stability evaluation
 
-System dynamics comparison
+4️⃣ Z-Domain (Digital Pole Stability)
 
-4️⃣ Z-Domain (Discrete-Time)
+Digital pole mapping
 
-Pole positions in the unit circle
+Check sampling adequacy
 
-Sampling rate validation
-
-Digital model stability
+Ensure discrete-time stability
 
 🖥️ Software Architecture
 
-The system includes:
+The system consists of:
 
-Signal Generator — Produces simulated sensor signals
+Signal Generator → Generates sensor input signals
 
-Domain Transformer — Computes FFT, s-plane poles, z-plane poles
+Domain Transformer → Computes FFT, S-plane, and Z-plane models
 
-Visualization Module — Real-time charts for all domains
+Real-Time Visualizer → Multi-panel charts for all analytical domains
 
-Control Panel — Adjust gain, time constant, noise, sampling rate
+Control Module → Adjust gain, time constants, sampling rate, noise, etc.
 
-⚙️ Technical Contributions
+This architecture allows simultaneous or independent simulation of all sensors.
 
-This repository provides:
+⚙️ How to Run
 
-A unified first-order mathematical model for five different conveyor sensors
-
-A full multi-domain evaluation engine
-
-A real-time multi-panel visualization dashboard
-
-Simulation of roller faults, thermal rise, load anomalies, and RFID/proximity events
-
-A baseline framework for:
-
-Predictive maintenance
-
-Sensor fusion research
-
-Digital twin development
-
-Industrial monitoring simulations
-
-🔧 How to Run
-
-Clone the repository:
+Clone this repository:
 
 git clone https://github.com/<your-username>/CoalConveyorBeltHealthMonitoring.git
 
 
-Open the solution in Visual Studio (.NET Framework)
+Open the project in Visual Studio (.NET Framework)
 
-Build and run the project
+Build the solution
 
-Use the GUI dashboard to:
+Run the application
 
-Select sensors
+Use the available dashboard to:
+
+Monitor sensors
+
+Visualize signals
 
 Inject faults
 
-Adjust parameters
-
-View domain transformations in real time
-
-📁 Repository Structure
-/src
-   /Models           → Unified first-order sensor models  
-   /Simulation       → Conveyor dynamics + disturbance injection  
-   /Visualization    → Time, FFT, S-plane, Z-plane charts  
-   /Sensors          → Accelerometer, Temperature, Load, RFID, Proximity  
-   /UI               → C# WinForms/WPF GUI Dashboard  
-
-/docs
-   Paper.pdf         → Research paper  
-   Images/           → 3D conveyor models & sensor placements  
-
-
-(Saya sesuaikan bagian ini jika Anda ingin saya membuka isi .ZIP dan menuliskan struktur folder yang benar-benar ada di project Anda.)
-
-📊 Demonstrated Fault Detection
-
-The system can simulate and visualize fault signatures including:
-
-Roller imbalance → harmonic spikes & vibration bursts
-
-Thermal overload → slow exponential temperature rise
-
-Overload / Lump coal → step changes in load cell output
-
-Tag misalignment → missing RFID/proximity events
-
-🧠 Intended Applications
-
-Predictive maintenance research
-
-Sensor fusion and signal processing study
-
-Industrial monitoring simulation
-
-Academic teaching tools
-
-Conveyor belt diagnostics
-
-📜 Citation
-
-If you use this project, please cite the paper:
-
-A. F. A. Razzaq and D. O. W. Nugroho,
-"Modeling and Multi-Domain Performance Evaluation of a Coal Conveyor Belt Health Monitoring System,"
-2025.
-
-🤝 Contributors
-
-Ahmad Fauzi Abdul Razzaq – Developer & Researcher
-
-Ir. Dwi Oktavianto Wahyu Nugroho, S.T., M.T. – Supervisor & Co-Author
+Analyze each domain
